@@ -1,0 +1,70 @@
+
+
+.App-header {
+    background-color: #202120;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title {
+    color: #019788;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .title a{
+    text-decoration: none;
+    color: #019788;
+  }
+  
+  .search-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    border-radius: 10px;
+    height: 4vh;
+    width: 50vh;
+    border: #019788 3px solid;
+    text-align: center;
+    margin: 10px;
+    font-size: larger;
+  }
+  
+
+  @media (max-width: 900px) {
+    .search-bar {
+      width: 80%; 
+    }
+    .logo{
+      display: none;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .categories {
+      flex-direction: column;
+    }
+  
+    .category {
+      margin: 10px 0;
+    }
+  
+    #movies,
+    #shows {
+      font-size: 50px; 
+    }
+  
+  }
+  

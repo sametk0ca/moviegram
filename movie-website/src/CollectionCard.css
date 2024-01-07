@@ -1,0 +1,38 @@
+
+.collection-card {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .collection-card-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .collection-card-details {
+    padding: 10px;
+  }
+  
+  .collection-card-title {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .collection-card-year,
+  .collection-card-rating {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  @media (max-width: 900px) {
+    .collection-card{
+        width: 100%;
+    }
+    
+  }

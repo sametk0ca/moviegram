@@ -1,0 +1,38 @@
+.carousel {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  .carousel-container {
+    display: flex;
+    
+  }
+  
+  .carousel-item {
+    width: 100%;
+    min-width: 300px;
+    box-sizing: border-box;
+    margin: 1vh;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .button {
+    margin: 10px;
+    height: 5vh;
+    width: 5vh;
+    background-color:#019788;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 40%;
+    cursor: pointer;
+  }
+  
+  .button:hover{
+    transform: scale(1.2);
+  }
